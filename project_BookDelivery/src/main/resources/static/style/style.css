@@ -3,11 +3,11 @@
 
 
 div#wrap {
-    width: 600px;
+/*     width: 600px; */
     padding: 20px 10px;
     border: 3px solid #aaa;
-    border-radius: 6px;
-    margin: 20px auto;
+	border-radius: 6px;
+	margin: 20px auto;
 }
 
 h1 {
@@ -25,4 +25,43 @@ button {
     font-weight: bold;
     padding: 4px 8px;
     cursor: pointer;
+}
+div#headerNav {
+	text-align: right;
+	padding-right: 250px;
+}
+div#headerNav ul > li {
+	display: inline-block;
+}
+
+header#header {
+	margin-top: 20px;
+	border: 1px solid #000;
+}
+
+section#section	{
+	border: 1px solid #000;
+	width: 100%;
+	
+}
+
+section#section #middle-section {
+	border: 1px solid #000;
+	width: 100%;
+	
+}
+
+section#section #bottom-section {
+	border: 1px solid #000;
+	width: 100%;
+	
+}
+
+footer#footer {
+	width: 100%;
+	text-align: center;
+	background-color: #cdcdcd;
+	border: 1px solid #000;
+	padding: 20px;
+	margin-top: 20px;
 }

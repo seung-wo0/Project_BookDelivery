@@ -8,9 +8,5 @@ import com.Book.dao.Bookdao;
 @Service
 public class BookSvcImp implements BookSvc {
 
-	@Autowired
-	private Bookdao BookDao;
-	
-	
-	
+
 }
